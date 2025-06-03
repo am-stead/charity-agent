@@ -20,3 +20,15 @@ The project includes:
 * APIs: CharityBase API, OpenAI API
 * Frameworks: LangChain
 * Environment Management: dotenv for loading API keys securely
+
+### How to run
+
+* Install dependencies:
+  ```
+  pip install langchain langchain_openai requests python-dotenv
+  ```
+* Add your API keys to the `.env` file.
+* Run the `agent.py` script:
+  ```
+  python agent.py
+  ```
