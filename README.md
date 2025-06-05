@@ -1,4 +1,4 @@
-# Charity funding agent 
+# Charity funding agent
 
 ## :construction: Under construction :construction:
 
@@ -24,11 +24,13 @@ The project includes:
 ### How to run
 
 * Install dependencies:
-  ```
-  pip install langchain langchain_openai requests python-dotenv
+
+  ```pip copy
+  pip install -r requirements.txt
   ```
 * Add your API keys to the `.env` file.
 * Run the `agent.py` script:
-  ```
+
+  ```pip copy
   python agent.py
   ```
