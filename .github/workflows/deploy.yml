@@ -26,7 +26,7 @@ jobs:
 
       - name: Run the application
         env:
-          CHARITYBASE_API_KEY: ${{ secrets.CHARITYBASE_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CHARITYBASE_API_KEY: ${{ secrets.CHARITY_BASE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPEN_AI_API_KEY }}
         run: |
           python agent.py
